@@ -1,0 +1,8 @@
+Flask
+Flask_Cors
+numpy
+Pillow
+Pillow
+protobuf
+python-dotenv
+tensorflow
