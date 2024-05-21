@@ -26,5 +26,5 @@ def generation():
     except Exception as e:
         return jsonify({'error': str(e)}), 500  # Return error response with status code 500
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
