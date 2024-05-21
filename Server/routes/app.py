@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import sys
+import sysg
 sys.path.append("E:\Skin diease prediction system\Server")
 from controller.prediction import predict
 from controller.geminiAI import generate
@@ -26,5 +26,5 @@ def generation():
     except Exception as e:
         return jsonify({'error': str(e)}), 500  # Return error response with status code 500
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
