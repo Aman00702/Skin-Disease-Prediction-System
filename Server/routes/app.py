@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import sys
-sys.path.append("E:\Skin diease prediction system\Server")
-from controller.prediction import predict
-from controller.geminiAI import generate
+# import sys
+# sys.path.append("E:\Skin diease prediction system\Server")
+from Server.controller.prediction import predict
+from Server.controller.geminiAI import generate
 
 app = Flask(__name__)
 CORS(app)
